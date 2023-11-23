@@ -24,7 +24,7 @@ public final class OraxenTransparentBlocks extends JavaPlugin {
         if (!initDatabase())
             Bukkit.getPluginManager().disablePlugin(this);
         registerCommands();
-        MechanicsManager.registerMechanicFactory("transparent_block", TransparentBlockMechanicFactory.class);
+        MechanicsManager.registerMechanicFactory("transparent_block", new TransparentBlockMechanicFactory("transparent_block"), true);
         if (!verifyMechanic()) return;
         registerListeners();
         getLogger().info("Mechanic 'transparent_block' registered with Oraxen.");

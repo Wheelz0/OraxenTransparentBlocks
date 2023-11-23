@@ -1,7 +1,7 @@
 name: OraxenTransparentBlocks
 version: ${project.version}
 main: me.playajames.oraxentransparentblocks.OraxenTransparentBlocks
-api-version: 1.16
+api-version: 1.20.2
 depend: [Oraxen, WorldGuard, WorldEdit]
 authors: [playajames]
 commands:

@@ -1,6 +1,6 @@
 package me.playajames.oraxentransparentblocks.Listeners.OraxenBlockListeners;
 
-import io.th0rgal.oraxen.items.OraxenItems;
+import io.th0rgal.oraxen.api.OraxenItems;
 import io.th0rgal.oraxen.mechanics.MechanicFactory;
 import me.playajames.oraxentransparentblocks.OraxenTransparentBlock;
 import me.playajames.oraxentransparentblocks.OraxenTransparentBlockManager;
